@@ -1,5 +1,3 @@
-[![Build Status](https://dev.azure.com/marvinbuss/MultilanguageQnABot/_apis/build/status/qna-bot-poc%20-%20CI?branchName=master)](https://dev.azure.com/marvinbuss/MultilanguageQnABot/_build/latest?definitionId=5&branchName=master)
-
 # Multilanguage QnA Bot
 
 This Bot was created using the [Bot Framework v4](https://dev.botframework.com), an AI based cognitive service, to implement simple Question and Answer conversational patterns, and can answer questions in more than 60 languages. The Bot uses the [QnA Maker](https://www.qnamaker.ai) as well as the [Text Translator API](https://azure.microsoft.com/en-us/services/cognitive-services/translator-text-api/).
@@ -14,18 +12,6 @@ You can check your installed version the following way:
 # determine dotnet version
 dotnet --version
 ```
-
-### Deployment of required resources on Azure
-
-TODO: Add script for automatic deployment of required resources
-
-### Create QnA Knowledge Base
-
-To answer questions from the users a knowledge base must be created using QnA Maker. QnA Maker enables you to power a question and answer service from your semi-structured content. One of the basic requirements in writing your own bot is to seed it with questions and answers. In many cases, the questions and answers already exist in content like FAQ URLs/documents, product manuals, etc. With QnA Maker, users can query your application in a natural, conversational manner. QnA Maker uses machine learning to extract relevant question-answer pairs from your content. It also uses powerful matching and ranking algorithms to provide the best possible match between the user query and the questions.
-How this can be done is decribed here:
-
-- [Create a knowledge base using the QnA maker and publish the knowledge base](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/tutorials/create-publish-query-in-portal)
-
 ## Run the Multilanguage QnA Bot
 
 ### Clone the repository
@@ -98,3 +84,4 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 - [Azure Portal](https://portal.azure.com)
 - [Language Understanding using LUIS](https://docs.microsoft.com/en-us/azure/cognitive-services/luis/)
 - [Channels and Bot Connector Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-concepts?view=azure-bot-service-4.0)
+
