@@ -44,7 +44,7 @@ namespace Microsoft.BotBuilderSamples
                     await Task.Delay(5000);
                     // await turnContext.SendActivityAsync(MessageFactory.Text($"How do I help you?!"), cancellationToken);
                     // await Task.Delay(5000);
-                    await turnContext.SendActivityAsync(MessageFactory.Text($"Take a deep Breate! Just Breate!!"), cancellationToken);
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"Take a deep Breathe! Just Breathe!!"), cancellationToken);
                     await Task.Delay(2000);
 
                     var breateCard = CreateBreateAdaptiveCardAttachment();
@@ -52,7 +52,7 @@ namespace Microsoft.BotBuilderSamples
                     await turnContext.SendActivityAsync(breateresponse, cancellationToken);
 
                     await Task.Delay(5000);
-                    await turnContext.SendActivityAsync(MessageFactory.Text($"How are doing? Ps. I can chat in your preferred language."), cancellationToken);                    
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"How are you doing? Ps. I can chat in your preferred language. Supported Languages: https://cutt.ly/9JOc0HY"), cancellationToken);                    
 
                 }
             }
