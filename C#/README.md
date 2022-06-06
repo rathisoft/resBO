@@ -14,15 +14,6 @@ dotnet --version
 ```
 ## Run the Multilanguage QnA Bot
 
-### Clone the repository
-
-```bash
-git clone https://github.com/marvinbuss/MultilanguageQnABot.git
-```
-
-- If you downloaded the repository as zip-File, then please unzip the archive.
-- In a terminal, navigate to the project folder.
-
 ### Update `appsettings.json`
 
 Your Bot has to connect to the deployed services to function properly. Therefore you have to update the `appsettings.json`.
