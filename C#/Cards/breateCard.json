@@ -1,0 +1,27 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "ImageSet",
+        "images": [
+          {
+            "type": "Image",
+            "size": "Large",
+            "altText": "",
+            "horizontalAlignment": "Center",
+            "url": "https://c.tenor.com/oMaE0M-_MUsAAAAd/meditation-you-got-this.gif",
+            "height": "stretch"
+          }
+        ],
+        "horizontalAlignment": "Center"
+      },
+      {
+        "type": "TextBlock",
+        "text": "",
+        "horizontalAlignment": "Center",
+        "wrap": true
+      }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+  }

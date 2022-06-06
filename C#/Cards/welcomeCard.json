@@ -1,0 +1,27 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ImageSet",
+      "images": [
+        {
+          "type": "Image",
+          "size": "Large",
+          "altText": "",
+          "horizontalAlignment": "Center",
+          "url": "https://nice-stone-0f417a410.1.azurestaticapps.net/images/logo1.png",
+          "height": "stretch"
+        }
+      ],
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Hey! I am DiDi ~ “responsible” AI Bot. I will try to answer your questions.",
+      "horizontalAlignment": "Center",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}
